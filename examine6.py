@@ -1,0 +1,5 @@
+a = (0, 9, 3, 6)
+b = (9, 5, 0, 7, 8)
+a_1 = set(a)
+b_1 = set(b)
+print(a_1 & b_1, 'amount', len(a_1 & b_1))
